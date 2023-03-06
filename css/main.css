@@ -97,16 +97,16 @@ textarea {
 
 
 html {
-    background-color: #fff;
+    background-color: black;
     height: 100%;
+    width: 100%;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 2em;
-    font-size: 1.25em;
+    font-weight: 700;
     height: 100%;
-    background: black;
 }
 
 main {
@@ -116,11 +116,13 @@ main {
 }
 
 h1 {
-    font-family: 'Fugaz One', cursive; 
+    font-family: 'Fugaz One', cursive;
+    font-size: 3em; 
 }
 
 .wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-weight: 700;
 }
@@ -132,12 +134,14 @@ h1 {
     justify-content: center;
     align-items: center;
     color: #fff;
-    line-height: 1.25em;
-    font-size: .75em;
-    background-color: burlywood;
-    height: 300px;
-    width: 30%;
-    background: teal;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    height: auto;
+}
+
+.div-2 {
+    border-left:  1px solid white;
+    border-right:  1px solid white;
 }
 
 p {
