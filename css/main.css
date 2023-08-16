@@ -100,52 +100,70 @@ html {
     background-color: black;
     height: 100%;
     width: 100%;
+    font-size: 1em;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;    padding: 0em 2em;
     font-weight: 700;
-    height: 100%;
+    line-height: 1.5em;
+    font-size: 1.375em;
+    color: #fff;
+    padding: 0em 2em;
 }
 
-main {
-    font-family: font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 1.2em;
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 h1 {
-    font-family: 'Fugaz One', cursive;
-    font-size: 3em; 
+    font-family: 'Mulish', sans-serif;
+    font-size: 3em;
+    color: #8338ec;
 }
 
-.wrapper {
+main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: 700;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1.5px solid  #ff006e;
 }
 
-.div-1,
-.div-2,
-.div-3 {
+p span {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.4em;
+    color: #3a86ff;
+}
+
+.flex-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    line-height: 1.5em;
-    font-size: 1.25em;
-    height: auto;
+    width: 300px;
 }
 
-.div-2 {
-    border-left:  1px solid white;
-    border-right:  1px solid white;
+#div-2 {
+    margin: 25px 0;
+    padding: 0 40px;
+    border-left: 1px solid #FF3F87;
+    border-right: 1px solid #ff3f87;
 }
 
-p {
-    padding: 10%;
+footer {
+    border-top: 1.5px solid  #ff006e;
+    padding: 40px 0;
 }
 
 
